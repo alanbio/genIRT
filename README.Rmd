@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# genIRT
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of genIRT is to generate the dichotomously scored response data from two parameter logistic model (2PL).
+
+## Installation
+
+You can install the released version of genIRT from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("genIRT")
+```
+
+## Example
+
+This is a basic example which shows you how to generate a response data:
+
+```{r example}
+library(genIRT)
+## basic example code
+mydata=sim2pldat(10,ilocation=NULL,islope=NULL,plocation=rnorm(500,0,1),rnum=0.6)
+```
+
+To get parameter values and response data, separately.
+
+```{r cars}
+
+  mydata$i.loc
+  mydata$i.slp
+  mydata$p.loc
+  mydata$resp
+```
+
