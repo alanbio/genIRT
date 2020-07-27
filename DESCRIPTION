@@ -11,3 +11,9 @@ LazyData: true
 RoxygenNote: 7.1.1
 URL: https://github.com/alanbio/genIRT
 BugReports: https://github.com/alanbio/genIRT/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    stats
