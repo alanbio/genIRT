@@ -18,7 +18,7 @@ simRaschdat(nitem, ilocation = NULL, plocation = NULL, nobs = 0, rnum = 0.5)
 \item{rnum}{The random number between 0 and 1 to assign the responses. For example, when rnum=0.5, if a person's probability of responding items correctly is less than rnum, 1s will be assigned to the items. If larger than rnum, 0s will be assigned.}
 }
 \value{
-The output from \code{\link{print}}
+A list
 }
 \description{
 Random Dichotomous Rasch Item Data Generator

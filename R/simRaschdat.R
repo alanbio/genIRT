@@ -6,7 +6,7 @@
 #' @param nobs The number of observations or rows in the person location matrix which will be generated from a standard normal distribution with a mean of 0 and sd of 1
 #' @param rnum The random number between 0 and 1 to assign the responses. For example, when rnum=0.5, if a person's probability of responding items correctly is less than rnum, 1s will be assigned to the items. If larger than rnum, 0s will be assigned.
 #' @import stats
-#' @return The output from \code{\link{print}}
+#' @return A list
 #' @export
 #'
 #' @examples
