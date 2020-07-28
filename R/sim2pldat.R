@@ -67,8 +67,7 @@ sim2pldat <- function(nitem,ilocation=NULL,islope=NULL,plocation=NULL,nobs=0,rnu
   output$resp = obs.resp
 
   end.time = Sys.time()
-  time_interval <- round(as.numeric(difftime(end.time, start.time,
-                                             units = "secs")), 2)
+  time_interval = round(as.numeric(difftime(end.time, start.time, units = "secs")), 2)
   output
 
 }

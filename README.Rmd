@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # genIRT
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/alanbio/genIRT.svg?branch=master)](https://travis-ci.com/alanbio/genIRT)
 <!-- badges: end -->
 
 The goal of genIRT is to generate the dichotomously scored response data from two parameter logistic model (2PL).
