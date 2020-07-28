@@ -69,5 +69,5 @@ sim2pldat <- function(nitem,ilocation=NULL,islope=NULL,plocation=NULL,nobs=0,rnu
   end.time = Sys.time()
   time_interval = round(as.numeric(difftime(end.time, start.time, units = "secs")), 2)
   output
-
+  #Sys.setenv('PATH' = paste0('C:\\Program Files\\qpdf-10.0.1\\bin;', Sys.getenv('PATH')))
 }
