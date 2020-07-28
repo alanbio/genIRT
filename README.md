@@ -6,14 +6,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-The goal of genIRT is to generate the dichotomously scored response data
-from two parameter logistic model (2PL).
+The goal of genIRT is to generate the dichotomously scored response data from two parameter logistic model (2PL).
 
 Installation
 ------------
 
-You can install the released version of genIRT from
-[CRAN](https://CRAN.R-project.org) with:
+You can install the released version of genIRT from [CRAN](https://CRAN.R-project.org) with:
 
     install.packages("genIRT")
 
