@@ -61,9 +61,9 @@ sim2pldat <- function(nitem,ilocation=NULL,islope=NULL,plocation=NULL,nobs=0,rnu
   }
 
   output = list()
-  output$i.loc = i.loc
-  output$i.slp = i.slp
-  output$p.loc = p.loc
+  output$iloc = i.loc
+  output$islp = i.slp
+  output$ploc = p.loc
   output$resp = obs.resp
 
   end.time = Sys.time()

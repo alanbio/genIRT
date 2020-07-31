@@ -54,13 +54,12 @@ simRaschdat <- function(nitem,ilocation=NULL,plocation=NULL,nobs=0,rnum=0.5){
   }
 
   output = list()
-  output$i.loc = i.loc
-  output$p.loc = p.loc
+  output$iloc = i.loc
+  output$ploc = p.loc
   output$resp = obs.resp
 
   end.time = Sys.time()
-  time_interval <- round(as.numeric(difftime(end.time, start.time,
-                                             units = "secs")), 2)
+  time_interval <- round(as.numeric(difftime(end.time, start.time,units = "secs")), 2)
   output
 
 }
